@@ -23,6 +23,8 @@
 ```bash
 # 1. 将脚本保存为 socks5m.sh
 # 2. 运行安装（会自动创建一个随机用户）
+# 1. 下载并安装（首次会自动创建一个随机用户）
+curl -o socks5m.sh https://raw.githubusercontent.com/kekeguai/set_socks5/refs/heads/main/socks5m.sh
 sudo bash socks5m.sh install
 
 # 或指定首个用户的端口、用户名、密码
